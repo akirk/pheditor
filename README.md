@@ -21,7 +21,7 @@ Pheditor is a single-file editor and file manager written in PHP.
 ### Requirements
 
 1. Web server (Nginx, Apache, or etc)
-2. PHP 7.2 or above
+2. PHP 8.3 or above
 
 ---
 
@@ -83,16 +83,7 @@ You can empty the `PASSWORD` constant in the source code to access the script wi
 
 There are eight permissions for users that is defined in `PERMISSIONS` constant. You can remove any of them as you need.
 
-Default value: `newfile,newdir,editfile,deletefile,deletedir,renamefile,renamedir,changepassword,uploadfile,terminal`
-
----
-
-### Donation
-If you found this project useful, please consider making a donation to keep this project alive.
-Cryptocurrency | Address
---- | ---
-Bitcoin | `bc1qqjm32eupk7lw3kctlmflqh9spzalya9mqwppw9`
-Ethereum | `0x3d7324f1718fF9f9F57b1d45c80dEdea59F0b412`
+Default value: `newfile,newdir,editfile,deletefile,deletedir,renamefile,renamedir,changepassword,uploadfile,terminal,movefile`
 
 ---
 **Thanks to:**
